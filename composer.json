@@ -1,0 +1,23 @@
+{
+    "name": "masterdmx/laravel-images",
+    "description": "Image library for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Krening",
+            "email": "masterdmx3325@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MasterDmx\\LaravelImages\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "intervention/image": "^2.5",
+        "nesbot/carbon": "^2.46.0"
+    },
+    "version": "1.0.0"
+}
